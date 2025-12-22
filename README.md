@@ -16,6 +16,8 @@ Wrote:
  - titles_filtered.csv
  - titles_filtered.html
 ```
+
 Quest links are clickable and columns are sortable as well.
 Row counts are generated on page load. (This is the total number of titles you are missing):
-![Here is an example of a generate HTML report](https://i.imgur.com/fAWYwNP.png)
+
+![Here is an example of a generate HTML report](https://i.imgur.com/b4kfRhC.png)
