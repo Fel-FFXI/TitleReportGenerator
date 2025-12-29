@@ -4,7 +4,7 @@ Windower Users: Run [Kayte's Titles addon](https://github.com/kaytecat/FFXI-Addo
 
 Then simply:
 
-1.) Delete titles between Line 15 and 209, and Copy/paste YOUR missing titles there (one title per line). 
+1.) Delete titles between Line 21-25, and Copy/paste YOUR missing titles there (one title per line). 
 
 2.) Run `python titlereportgenerator.py`
 
@@ -24,7 +24,7 @@ Row counts are generated on page load. (This is the total number of titles you a
 
 If you need additional installation help:
 
-0.) Make sure you updated titlereportgenerator.py with only your missing titles.
+0.) Make sure you updated titlereportgenerator.py with only your missing titles. (I included 5 missing titles, just as an example).
 
 1.) Download / install python: [https://www.python.org/downloads/release/python-3142/](https://www.python.org/downloads/release/python-3142/)
 
@@ -36,6 +36,7 @@ If you need additional installation help:
 pip install requests
 pip install pandas
 pip install beautifulsoup
+pip install lxml
 cd "Your directory titlereportgenerator.py"
 python titlereportgenerator.py
 ```
