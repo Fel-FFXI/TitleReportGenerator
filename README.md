@@ -4,7 +4,7 @@ Windower Users: Run [Kayte's Titles addon](https://github.com/kaytecat/FFXI-Addo
 
 Then simply:
 
-1.) Copy/paste your missing titles between Line 15 and Line 209 (one title per line). 
+1.) Delete titles between Line 15 and 209, and Copy/paste YOUR missing titles there (one title per line). 
 
 2.) Run `python titlereportgenerator.py`
 
@@ -21,3 +21,18 @@ Quest links are clickable and columns are sortable as well.
 Row counts are generated on page load. (This is the total number of titles you are missing):
 
 ![Here is an example of a generate HTML report](https://i.imgur.com/b4kfRhC.png)
+
+If you need additional installation help:
+0.) Make sure you updated titlereportgenerator.py with only your missing titles.
+1.) Download / install python: [https://www.python.org/downloads/release/python-3142/](https://www.python.org/downloads/release/python-3142/)
+2.) Open an elevated command window: Start > Run > Type cmd > Right-click, select "Run as Administrator"
+3.) Run these commands:
+
+```
+pip install requests
+pip install pandas
+pip install beautifulsoup
+cd "Your directory titlereportgenerator.py"
+python titlereportgenerator.py
+```
+4.) Open your titles_filtered.html in your browser of choice.
